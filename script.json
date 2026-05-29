@@ -1,0 +1,269 @@
+{
+  "intro-woods-1": {
+    "text": "Your breath comes heavy as you run. The forest undergrowth tears at your clothes as you stumble through bushes and over roots. It smells like fresh-torn leaves and dirt, and your pulse is pounding in your ears.\n\nYou are fleeing from something you do not quite understand - it is a beast, and a killer, you are not sure how far behind it is.",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Focus on running as fast as you can.",
+        "target": "intro-woods-2-fast"
+      },
+      {
+        "text": "Be clever and find an alternate path, try to mislead your pursuer.",
+        "target": "intro-woods-2-smart"
+      },
+      {
+        "text": "Find shelter where you can hide.",
+        "target": "intro-woods-2-shelter"
+      },
+      {
+        "text": "Pause and listen for your pursuer.",
+        "target": "intro-woods-1-listen"
+      }
+    ],
+    "setFlags": [ "tired1" ]
+  },
+  "intro-woods-1-listen": {
+    "text": "You crouch and try to listen. At first, you can barely hear anything over the sounds of your own exhaustion. But soon, you can hear it in the distance behind you: a crashing of foliage, a cracking of branches.\n\nWhatever it is, it's coming for you.",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Focus on running as fast as you can.",
+        "target": "intro-woods-2-fast"
+      },
+      {
+        "text": "Be clever and find an alternate path, try to mislead your pursuer.",
+        "target": "intro-woods-2-smart"
+      },
+      {
+        "text": "Find shelter where you can hide.",
+        "target": "intro-woods-2-shelter"
+      }
+    ]
+  },
+  "intro-woods-2-fast": {
+    "text": "Your shoes dig into dirt and push off of roots as you hurl yourself through the woods. You've lost all track of direction; all you have now is \"away\". Branches cut at your face and hands as you push your way through them. You stumble over a rock, then recover, and keep running, harder than you have in your life.\n\nBut it's not enough. There are sounds of pursuit behind you, something larger than you are that you dare not look behind to see. They draw closer... and then a massive shadow passes overhead. With a heavy thud, a creature lands before you, and whips around to face you.\n\nIt is a man-wolf, seven feet high even hunched over.",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Turn and run the other way.",
+        "target": "intro-woods-keep-running"
+      },
+      {
+        "text": "Square up and take a swing at it.",
+        "target": "intro-woods-swing"
+      },
+      {
+        "text": "\"Nice...doggy?...\"",
+        "target": "intro-woods-nice"
+      },
+      {
+        "text": "\"Please...spare my life.\"",
+        "target": "intro-woods-spare"
+      }
+    ]
+  },
+  "intro-woods-2-smart": {
+    "text": "Running in a straight line from something faster than you is a good way to get caught. Taking half a moment to look around, and wiping the sweat from your brow, you see the reflection of moonlight on a nearby stream. Maybe you can hide your scent there?\n\nYou bolt for the stream, a mere two feet deep, and crouch down. You decide to double back the way you came in the hopes that your pursuer will pass you by. And indeed, your actions are rewarded by the sound of a large entity crashing past the way you were going... but that triumph is short lived, as it turns and comes your way! You bolt out the other side of the stream, but it's too late. Before you can get far, a massive shadow passes overhead. With a heavy thud, a creature lands before you, and whips around to face you.\n\nIt is a man-wolf, seven feet high even hunched over.",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Turn and run the other way.",
+        "target": "intro-woods-keep-running"
+      },
+      {
+        "text": "Square up and take a swing at it.",
+        "target": "intro-woods-swing"
+      },
+      {
+        "text": "\"Nice... doggy?...\"",
+        "target": "intro-woods-nice"
+      },
+      {
+        "text": "\"Please... spare my life.\"",
+        "target": "intro-woods-spare"
+      },
+      {
+        "text": "Accept your fate.",
+        "target": "intro-woods-fate"
+      }      
+    ]
+  },
+  "intro-woods-2-shelter": {
+    "text": "There's no way you can beat this creature in a dead run, so you decide to hide and hope it passes by. The question is, where? This is flat terrain, with no caves or hollows to speak of, and simply standing behind a tree trunk is no kind of defense. Frantic, you look around, and then you find it: a huge fallen tree laying over a huge old stump. You hurry to crouch underneath it, confident you're in shadow.\n\nUnfortunately, the beast can smell you. There's a long, persistent crashing through the foliage as it approaches. You can see the gleam of eyeshine, looking right at you, and get up to try and run away once more.\n\nA massive shadow passes overhead. With a heavy thud, the creature lands before you, and whips around to face you.\n\nIt is a man-wolf, seven feet high even hunched over.",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Turn and run the other way.",
+        "target": "intro-woods-keep-running"
+      },
+      {
+        "text": "Square up and take a swing at it.",
+        "target": "intro-woods-swing"
+      },
+      {
+        "text": "\"Nice... doggy?...\"",
+        "target": "intro-woods-nice"
+      },
+      {
+        "text": "\"Please... spare my life.\"",
+        "target": "intro-woods-spare"
+      },
+      {
+        "text": "Accept your fate.",
+        "target": "intro-woods-fate"
+      }      
+    ]
+  },
+  "intro-woods-keep-running": {
+    "text": "It seems hopeless, but maybe you can get a little more distance... before what? Before it leaps on you and disembowels you?\n\nYou make an attempt to run, and half a moment later, a paw lands on your back, pushing you to your face in the dirt. The beast is hunched over you, growling deeply.",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "\"Nice... doggy?...\"",
+        "target": "intro-woods-nice"
+      },
+      {
+        "text": "\"Please... spare my life.\"",
+        "target": "intro-woods-spare"
+      },
+      {
+        "text": "Accept your fate.",
+        "target": "intro-woods-fate"
+      }      
+    ]
+  },
+  "intro-woods-swing": {
+    "text": "You may not be too confident in your fighting prowess, especially fists against claws, but what other option do you have? If you don't fight, it will kill you where you stand. You square up and take a swing...\n\nThe man-wolf catches your fist and shoves you back, hard. You stumble and fall over backwards. The beast hunches over you, growling deeply.",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "\"Nice... doggy?...\"",
+        "target": "intro-woods-nice"
+      },
+      {
+        "text": "\"Please... spare my life.\"",
+        "target": "intro-woods-spare"
+      },
+      {
+        "text": "Accept your fate.",
+        "target": "intro-woods-fate"
+      }      
+    ]
+  },
+  "intro-woods-nice": {
+    "text": "\"Nice... doggy?...\"\n\nIt seems ridiculous, hopeless, but maybe this thing is socialized, trained, or even intelligent! You search its feral face for any sign that your words have found purchase, but they are merely met with a growl as the beast looms closer. Tension hangs heavy in the air.\n\nThen, at last but quite suddenly, the beast lunges forward and sinks its teeth into your shoulder, even as its claws rake your body. You are deafened by your own scream, and the world fades to red...",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue...",
+        "target": "intro-woods-continue"
+      }      
+    ]
+  },
+  "intro-woods-spare": {
+    "text": "\"Please... Spare my life.\"\n\nYour words are genuine and full of terror. You don't know if this thing is even intelligent, let alone smart enough to speak your language, but you're out of options. You search its feral face for any sign that your words have found purchase, but they are merely met with a growl as the beast looms closer. Tension hangs heavy in the air.\n\nThen, at last but quite suddenly, the beast lunges forward and sinks its teeth into your shoulder, even as its claws rake your body. You are deafened by your own scream, and the world fades to red...",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue...",
+        "target": "intro-woods-continue"
+      }      
+    ]
+  },
+  "intro-woods-fate": {
+    "text": "You swallow hard, and face the man-wolf. You've been caught, and you know it. There can be no escape.\n\nYou don't want to give it the satisfaction of begging for your life - at the end, you choose dignity. But the beast still regards you like a predator its prey. The beast looms closer. Tension hangs heavy in the air.\n\nThen, at last but quite suddenly, the beast lunges forward and sinks its teeth into your shoulder, even as its claws rake your body. You are deafened by your own scream, and the world fades to red...",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue...",
+        "target": "intro-woods-continue"
+      }      
+    ]
+  },
+  "intro-woods-continue": {
+    "text": "You slowly come to, lying on your back. Your body aches all over, but it's hard to tell how much of it is injury and how much of it is from the large rocks you've been lying on. You feel around for where you were bitten and clawed, and are surprised to find no wounds, only the smooth skin of scars.\n\nThe moon shines down on you, and it seems so bright you're tempted to shield your eyes. You don't know how you're still alive, but you are. You also don't know how long you were out, but the pangs of dehydration tell you it's been a while. Slowly, you stand up.",
+    "title": "The woods at night",
+    "images": [
+      {
+        "background": "/images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+    ],
+    "setFlags": [ "dehydrated" ],
+    "clearFlags": [ "tired1" ]
+ }
+  
+}
