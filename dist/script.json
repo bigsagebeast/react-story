@@ -4,7 +4,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -34,7 +34,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -59,7 +59,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -88,7 +88,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -121,7 +121,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -154,7 +154,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -179,7 +179,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -204,7 +204,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -221,7 +221,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -238,7 +238,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
@@ -255,7 +255,7 @@
     "title": "The woods at night",
     "images": [
       {
-        "background": "/images/forest-stars.jpg",
+        "background": "images/forest-stars.jpg",
         "parallax": 1.025,
         "wobble": 4
       }
