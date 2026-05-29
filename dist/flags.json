@@ -1,0 +1,6 @@
+{
+  "dehydrated": { "name": "Dehydrated", "visible": true },
+  "tired1": { "name": "Tired", "visible": true },
+  "tired2": { "name": "Exhausted", "visible": true },
+  "secretFound": { "name": "Secret Found", "visible": false }
+}

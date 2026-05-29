@@ -1,5 +1,5 @@
 {
-  "name": "react-hex-idle",
+  "name": "react-story",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gl-matrix": "^3.4.4",
@@ -31,5 +33,6 @@
   },
   "overrides": {
     "esbuild": "0.26.0"
-  }
+  },
+  "homepage": "https://bigsagebeast.github.io/react-story"
 }
