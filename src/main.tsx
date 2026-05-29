@@ -48,7 +48,7 @@ type GameState = {
 function App() {
 const [scenes, setScenes] = React.useState<Record<string, StoryScene>>({});
 const [currentSceneId, setCurrentSceneId] = React.useState(() => {
-  return localStorage.getItem("currentSceneId") ?? "intro-woods-1";
+  return localStorage.getItem("currentSceneId") ?? "";
 });
 const [flags, setFlags] = React.useState<Record<string, StatusFlag>>({});
 const [gameState, setGameState] = React.useState<GameState>(() => {
@@ -82,6 +82,12 @@ React.useEffect(() => {
 
   return () => window.clearInterval(interval);
 }, []);
+
+React.useEffect(() => {
+  if (!currentSceneId && Object.keys(scenes).length > 0) {
+    resetGame();
+  }
+}, [currentSceneId, scenes]);
 
 React.useEffect(() => {
   localStorage.setItem("currentSceneId", currentSceneId);

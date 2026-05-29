@@ -212,7 +212,7 @@
     "options": [
       {
         "text": "Continue...",
-        "target": "intro-woods-continue"
+        "target": "intro-woods-wolf-1"
       }      
     ]
   },
@@ -229,7 +229,7 @@
     "options": [
       {
         "text": "Continue...",
-        "target": "intro-woods-continue"
+        "target": "intro-woods-wolf-1"
       }      
     ]
   },
@@ -246,13 +246,13 @@
     "options": [
       {
         "text": "Continue...",
-        "target": "intro-woods-continue"
+        "target": "intro-woods-wolf-1"
       }      
     ]
   },
-  "intro-woods-continue": {
-    "text": "You slowly come to, lying on your back. Your body aches all over, but it's hard to tell how much of it is injury and how much of it is from the large rocks you've been lying on. You feel around for where you were bitten and clawed, and are surprised to find no wounds, only the smooth skin of scars.\n\nThe moon shines down on you, and it seems so bright you're tempted to shield your eyes. You don't know how you're still alive, but you are. You also don't know how long you were out, but the pangs of dehydration tell you it's been a while. Slowly, you stand up.",
-    "title": "The woods at night",
+  "intro-woods-wolf-1": {
+    "text": "You slowly come to, lying on your side. Your body aches all over, but it's hard to tell how much of it is injury and how much of it is from the large rocks you've been lying on.\n\nThe full moon shines down on you, and it seems so bright you're tempted to shield your eyes. You don't know how you're still alive, but you are. You also don't know how long you were out, but the pangs of dehydration tell you it's been a while.",
+    "title": "The woods at night - Full moon",
     "images": [
       {
         "background": "images/forest-stars.jpg",
@@ -261,9 +261,64 @@
       }
     ],
     "options": [
+      {
+        "text": "Check your wounds.",
+        "target": "intro-woods-wolf-check-scars"
+      },
+      {
+        "text": "Stand up.",
+        "target": "intro-woods-wolf-stand-up"
+      }      
     ],
     "setFlags": [ "dehydrated" ],
     "clearFlags": [ "tired1" ]
+  },
+  "intro-woods-wolf-check-scars": {
+    "text": "The wounds you suffered at the teeth and claws of the man-wolf were severe. It's hard to imagine having recovered already. You attempt to reach up for them, but your arms don't want to work.\n\nWas the bite to your shoulder that severe? Do you have nerve damage? No, your arms can still move, they just move in an unfamiliar way. You shove this mystery back in your mind. For now, you're thirstier than you've ever been in your life.",
+    "title": "The woods at night - Full moon",
+    "images": [
+      {
+        "background": "images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Stand up.",
+        "target": "intro-woods-wolf-stand-up"
+      }      
+    ]
+  },
+  "intro-woods-wolf-stand-up": {
+    "text": "You don't know where you are, and you don't know if you're in danger. What you do know is that you need to find water, and lying here won't help. You stand up.\n\nOr at least, you try. You roll onto your front and try to get your knees under you, but your legs propel you forward instead of up. You lift yourself a little with the aid of your hands, and are surprised that you don't feel hunched over. Instead, it feels like you're standing, just on all...fours.\n\nYou pause. Something is very wrong with your hands.",
+    "title": "The woods at night - Full moon",
+    "images": [
+      {
+        "background": "images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+      {
+        "text": "Continue...",
+        "target": "intro-woods-wolf-stand-up-2"
+      }      
+    ]
+  },
+  "intro-woods-wolf-stand-up-2": {
+    "text": "The thing that's wrong with your hands is that you don't have any. When you look down - and, in the process, realize that your head feels like a different shape - you see slender, animal forelegs that end in paws with blunt nails.\n\nLooking back to inspect your legs, you instead see a furred flank, haunches, and hindlegs. Something flutters at your lower back, and you realize the presence of a tail when it instinctively tucks.\n\nYou are lost, alone, and very changed.",
+    "title": "The woods at night - Full moon",
+    "images": [
+      {
+        "background": "images/forest-stars.jpg",
+        "parallax": 1.025,
+        "wobble": 4
+      }
+    ],
+    "options": [
+    ]
  }
   
 }
