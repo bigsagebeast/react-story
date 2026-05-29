@@ -101,9 +101,17 @@ React.useEffect(() => {
 
 React.useEffect(() => {
   fetch("script.json")
-    .then((response) => response.json())
+    .then(async (response) => {
+      console.log("script status", response.status, response.url);
+      const text = await response.text();
+      console.log("script text", text);
+      return JSON.parse(text);
+    })
     .then((data) => {
       setScenes(data);
+    })
+    .catch((error) => {
+      console.error("script failed", error);
     });
 }, []);
 
