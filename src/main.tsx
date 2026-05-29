@@ -92,7 +92,7 @@ React.useEffect(() => {
 }, [gameState]);
 
 React.useEffect(() => {
-  fetch("/flags.json")
+  fetch("flags.json")
     .then((response) => response.json())
     .then((data) => {
       setFlags(data);
@@ -100,7 +100,7 @@ React.useEffect(() => {
 }, []);
 
 React.useEffect(() => {
-  fetch("/script.json")
+  fetch("script.json")
     .then((response) => response.json())
     .then((data) => {
       setScenes(data);
